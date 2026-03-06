@@ -15,7 +15,6 @@ public class CustomListTest {
     @Test
     public void testDeleteCity(){
         CustomList list = new CustomList();
-        CustomList list2 = new CustomList();
         City calgary = new City("Calgary", "AB");
         list.addCity(calgary);
         list.addCity(new City("Edmonton", "AB"));
